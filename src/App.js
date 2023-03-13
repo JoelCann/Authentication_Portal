@@ -11,14 +11,14 @@ function App() {
   const[password, setPassword]=useState('')
 
   const validateSubmit=(e)=> {
-    
+    e.preventDefault()
     if (email === "Omaya43@gmail.com"  &&  password === "beans1")
       alert('Successful login')
      
     else 
-    e.preventDefault()
+    
         alert('Invalid Credentials')
-        e.preventDefault()
+        
   }
 
 
