@@ -1,1 +1,1 @@
-A Web App Login screen built with react
+It contains prededined credentials but could be easily changed.

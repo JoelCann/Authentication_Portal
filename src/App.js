@@ -12,7 +12,7 @@ function App() {
 
   const validateSubmit=(e)=> {
     
-    if (email === "jcann8691@gmail.com"  &&  password === "beans1")
+    if (email === "Omaya43@gmail.com"  &&  password === "beans1")
       alert('Successful login')
      
     else 
