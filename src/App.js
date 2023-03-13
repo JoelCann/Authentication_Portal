@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, {useState} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import login from './login.svg'
+import swal from 'sweetalert';
 
 
 function App() {
@@ -12,12 +13,12 @@ function App() {
 
   const validateSubmit=(e)=> {
     e.preventDefault()
-    if (email === "Omaya43@gmail.com"  &&  password === "beans1")
-      alert('Successful login')
+    if (email === "react@gmail.com"  &&  password === "beans1")
+      swal('Successful login', 'Welcome to the a new dispensation', 'success')
      
     else 
     
-        alert('Invalid Credentials')
+        swal('Login Unsuccessful', 'Wrong Credentials, Please try again', 'warning')
         
   }
 
