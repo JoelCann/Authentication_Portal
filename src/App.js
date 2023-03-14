@@ -48,7 +48,7 @@ function App() {
                           <label className="form-label" style={{fontSize: 17}}>Password</label>
                           <input type="password" className="form-control" placeholder='Input Password' value={password} onChange={(e)=> setPassword(e.target.value)} />
                         </div>
-                        <button type="submit" className="btn btn-primary" >Submit</button>
+                        <button type="submit" className="btn btn-primary  " style={{width:320, height: 40}} >Login</button>
                     </form>
                   </div>
                 </div>
