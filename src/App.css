@@ -1,3 +1,9 @@
+.picture {
+  background-image: url(./pebels2.png);
+  background-repeat: no-repeat;
+}
+
+
 .App {
   text-align: center;
 }
