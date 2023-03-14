@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App-header">
-      <h1>Authentication Portal</h1>
+      <h1 style={{fontWeight:800, color:"black"}}>Authentication Portal</h1>
       
       <div className='container'>
           <div className='row'>
